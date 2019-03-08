@@ -1,14 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Serenity.MPage1">
+             x:Class="Serenity.MPage1"
+                  xmlns:local="clr-namespace:Serenity">
     <MasterDetailPage.Master>
         <ContentPage Title="Menu" BackgroundColor="Gray">
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+            <Label  />
+                <Button Text="Mon Timer" />
+                <Label />
+                <Button Text="Mes Offres" />
+                <Label />
+            </StackLayout>
         </ContentPage>
     </MasterDetailPage.Master>
     <MasterDetailPage.Detail>
